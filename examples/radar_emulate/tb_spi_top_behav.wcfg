@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_spi_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_spi_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="678500000001fs"></ZoomEndTime>
+      <Cursor1Time time="398080000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="147"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/sys_rst_n" type="logic">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/spi_rdata" type="array">
+      <obj_property name="ElementShortName">spi_rdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_rdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/spi_mode" type="array">
+      <obj_property name="ElementShortName">spi_mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/spi_en" type="logic">
+      <obj_property name="ElementShortName">spi_en</obj_property>
+      <obj_property name="ObjectShortName">spi_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/o_io_update" type="logic">
+      <obj_property name="ElementShortName">o_io_update</obj_property>
+      <obj_property name="ObjectShortName">o_io_update</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/o_io_reset" type="logic">
+      <obj_property name="ElementShortName">o_io_reset</obj_property>
+      <obj_property name="ObjectShortName">o_io_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/o_master_reset" type="logic">
+      <obj_property name="ElementShortName">o_master_reset</obj_property>
+      <obj_property name="ObjectShortName">o_master_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/o_profile_ctrl" type="array">
+      <obj_property name="ElementShortName">o_profile_ctrl[2:0]</obj_property>
+      <obj_property name="ObjectShortName">o_profile_ctrl[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/ic_wait_cnt" type="array">
+      <obj_property name="ElementShortName">ic_wait_cnt[18:0]</obj_property>
+      <obj_property name="ObjectShortName">ic_wait_cnt[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/spi_wait_cnt" type="array">
+      <obj_property name="ElementShortName">spi_wait_cnt[18:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_wait_cnt[18:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/flow_cnt" type="array">
+      <obj_property name="ElementShortName">flow_cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">flow_cnt[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/cmd_cnt" type="array">
+      <obj_property name="ElementShortName">cmd_cnt[18:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_cnt[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/init_done" type="logic">
+      <obj_property name="ElementShortName">init_done</obj_property>
+      <obj_property name="ObjectShortName">init_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/r_trans_data_cnt" type="array">
+      <obj_property name="ElementShortName">r_trans_data_cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">r_trans_data_cnt[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/ad9910_cr1_3" type="array">
+      <obj_property name="ElementShortName">ad9910_cr1_3[2:0][39:0]</obj_property>
+      <obj_property name="ObjectShortName">ad9910_cr1_3[2:0][39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/ad9910_profile_0" type="array">
+      <obj_property name="ElementShortName">ad9910_profile_0[71:0]</obj_property>
+      <obj_property name="ObjectShortName">ad9910_profile_0[71:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/r_spi_en_flag" type="logic">
+      <obj_property name="ElementShortName">r_spi_en_flag</obj_property>
+      <obj_property name="ObjectShortName">r_spi_en_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/r_spi_en_avaible" type="logic">
+      <obj_property name="ElementShortName">r_spi_en_avaible</obj_property>
+      <obj_property name="ObjectShortName">r_spi_en_avaible</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/mode" type="array">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/spi_cnt" type="array">
+      <obj_property name="ElementShortName">spi_cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_cnt[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/spi_wait" type="array">
+      <obj_property name="ElementShortName">spi_wait[18:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_wait[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/spi_master_inst/spi_clk" type="logic">
+      <obj_property name="ElementShortName">spi_clk</obj_property>
+      <obj_property name="ObjectShortName">spi_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/spi_master_inst/spi_mosi" type="logic">
+      <obj_property name="ElementShortName">spi_mosi</obj_property>
+      <obj_property name="ObjectShortName">spi_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/spi_done" type="logic">
+      <obj_property name="ElementShortName">spi_done</obj_property>
+      <obj_property name="ObjectShortName">spi_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/drive_ad9910_inst/spi_sdata" type="array">
+      <obj_property name="ElementShortName">spi_sdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_sdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_top/spi_top_inst/spi_master_inst/spi_miso" type="logic">
+      <obj_property name="ElementShortName">spi_miso</obj_property>
+      <obj_property name="ObjectShortName">spi_miso</obj_property>
+   </wvobject>
+</wave_config>

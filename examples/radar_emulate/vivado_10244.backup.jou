@@ -1,0 +1,588 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May  7 14:51:10 2021
+# Process ID: 10244
+# Current directory: D:/vivado_pros/radar_emulate
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4216 D:\vivado_pros\radar_emulate\radar_emulate.xpr
+# Log file: D:/vivado_pros/radar_emulate/vivado.log
+# Journal file: D:/vivado_pros/radar_emulate\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/vivado_pros/radar_emulate/radar_emulate.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+close_hw
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_simulation
+open_wave_config D:/vivado_pros/radar_emulate/tb_spi_top_behav.wcfg
+source tb_spi_top.tcl
+restart
+run all
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes sys_rst_n -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+commit_hw_vio [get_hw_probes {sys_rst_n} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+endgroup
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+close_design
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+close_design
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+close_design
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]

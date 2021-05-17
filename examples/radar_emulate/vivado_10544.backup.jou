@@ -1,0 +1,78 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed May 12 10:36:29 2021
+# Process ID: 10544
+# Current directory: D:/vivado_pros/radar_emulate
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17588 D:\vivado_pros\radar_emulate\radar_emulate.xpr
+# Log file: D:/vivado_pros/radar_emulate/vivado.log
+# Journal file: D:/vivado_pros/radar_emulate\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/vivado_pros/radar_emulate/radar_emulate.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/vivado_pros/radar_emulate/radar_emulate.runs/impl_1/spi_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_simulation
+open_wave_config D:/vivado_pros/radar_emulate/tb_spi_top_behav.wcfg
+source tb_spi_top.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_simulation
+open_wave_config D:/vivado_pros/radar_emulate/tb_spi_top_behav.wcfg
+source tb_spi_top.tcl
+restart
+run all
+restart
+run all
+close_sim
